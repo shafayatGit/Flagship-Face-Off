@@ -37,7 +37,7 @@ const Navber = () => {
                       ? "underline text-blue-500 translate-1 font-bold"
                       : "text-black"
                   }
-                  to={"/"}
+                  to="/"
                 >
                   Home
                 </NavLink>
@@ -93,7 +93,7 @@ const Navber = () => {
                     ? "underline text-blue-500 translate-1"
                     : "text-black"
                 }
-                to={"/"}
+                to="/"
               >
                 Home
               </NavLink>
@@ -105,7 +105,7 @@ const Navber = () => {
                     ? "underline text-blue-500 translate-1"
                     : "text-black"
                 }
-                to={"/about"}
+                to="/about"
               >
                 About
               </NavLink>
@@ -117,7 +117,7 @@ const Navber = () => {
                     ? "underline text-blue-500 translate-1"
                     : "text-black"
                 }
-                to={"/cart"}
+                to="/cart"
               >
                 <FaShoppingCart size={18}></FaShoppingCart>
               </NavLink>
@@ -129,7 +129,7 @@ const Navber = () => {
                     ? "underline text-blue-500 translate-1"
                     : "text-black"
                 }
-                to={"/favorites"}
+                to="/favorites"
               >
                 <MdBookmarkAdd size={20}></MdBookmarkAdd>
               </NavLink>
